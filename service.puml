@@ -1,0 +1,27 @@
+' EmailService
+@startuml
+
+actor Customer
+
+node EmailService {
+}
+
+node CustomerService {
+}
+
+node OrderService {
+}
+
+node PaymentService {
+}
+
+node CatalogService {
+}
+
+PaymentService ..> EmailService
+CustomerService ..> EmailService
+OrderService ..> EmailService
+EmailService --> CatalogService
+EmailService --> Customer
+
+@enduml
