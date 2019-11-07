@@ -4,9 +4,9 @@ Reactive service responsible for email communication with customers.
 Service listens to events emitted by other services and based on them
 decides which email should be sent out to customers.   
 
-Owner|Tier|Status|Landscape|Contexts
----|---|---|---|---
-CommunicationsTeam|Tier2|Prod|Web|Customers,Orders,Catalog
+Owner|Tier|Status|Contexts
+---|---|---|---
+CommunicationsTeam|Tier2|Prod|Web,Customers,Orders,Catalog
 
 ##### Environments
 
